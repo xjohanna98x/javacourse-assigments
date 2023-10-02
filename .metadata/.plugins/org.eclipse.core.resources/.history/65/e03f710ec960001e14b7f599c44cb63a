@@ -1,0 +1,10 @@
+package Main;
+
+public class Tax_Calculator {
+
+	public static void main(String[] args) {
+		System.out.println("Johanna is learning java");
+
+	}
+
+}

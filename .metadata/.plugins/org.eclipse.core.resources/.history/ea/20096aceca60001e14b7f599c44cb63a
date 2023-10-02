@@ -1,0 +1,21 @@
+package Main;
+
+import java.util.Scanner;
+
+public class Tax_Calculator {
+
+	public static void main(String[] args) {
+		try {
+			System.out.println("Please Enter the Name");
+		Scanner scanner = new Scanner(System.in);
+		String name = scanner.nextLine();
+		System.out.println("Please Enter the programming language");
+		String language = scanner.nextLine();
+		System.out.println(name+" is learning "+language);
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+		
+	}
+
+}
